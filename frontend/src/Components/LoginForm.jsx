@@ -43,7 +43,7 @@ function LoginForm() {
           onChange={handleChange}
           required
         />
-       <Link to="/forgot-password">Forgot password?</Link>
+       {/* <Link to="/forgot-password">Forgot password?</Link> */}
 
         <button type="submit">Login</button>
        

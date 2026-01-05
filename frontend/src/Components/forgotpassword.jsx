@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Auth.css"; // reuse your existing styles
+import "./Auth.css"; 
 import { useNavigate } from "react-router-dom";
 
 function ForgotPassword() {
@@ -11,7 +11,7 @@ function ForgotPassword() {
     if (email) {
       alert("Reset link sent to " + email);
       setEmail("");
-      navigate("/login"); // optional: redirect back to login
+      navigate("/login"); 
     } else {
       alert("Please enter your email");
     }
